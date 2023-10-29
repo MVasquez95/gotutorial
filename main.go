@@ -1,7 +1,13 @@
 package main
 
-import "github.com/gotutorial/variables"
+import (
+	"fmt"
+
+	"github.com/gotutorial/variables"
+)
 
 func main() {
-	variables.RestoVariables()
+	estado, texto := variables.ConvierteaTexto(1920)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }

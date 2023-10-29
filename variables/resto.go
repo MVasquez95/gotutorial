@@ -2,6 +2,7 @@ package variables
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -22,5 +23,6 @@ func RestoVariables() {
 }
 
 func ConvierteaTexto(numero int) (bool, string) {
-
+	texto := strconv.Itoa(numero)
+	return true, texto
 }
