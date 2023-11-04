@@ -37,5 +37,5 @@ func main() {
 	fmt.Println(result)
 	numero, result = ejercicios.EvaluaNumero("18")
 	fmt.Println(numero)
-	mt.Println(result)
+	fmt.Println(result)
 }
