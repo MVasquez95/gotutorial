@@ -2,14 +2,19 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	"github.com/gotutorial/ejercicios"
 )
 
 func main() {
-	//Convertir un entero a texto, se necesita importar package variables
+	////Convertir un entero a texto, se necesita importar package variables
 	/*estado, texto := variables.ConvierteaTexto(1920)
-	fmt.Println(estado)
-	fmt.Println(texto)*/
+	numero, result := ejercicios.EvaluaNumero("100")
+	fmt.Println(numero)
+	fmt.Println(result)
+	numero, result = ejercicios.EvaluaNumero("18")
+	fmt.Println(numero)
+	fmt.Println(result)
 
 	//Condicional
 	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
@@ -25,5 +30,12 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	} */
+
+	numero, result := ejercicios.EvaluaNumero("100")
+	fmt.Println(numero)
+	fmt.Println(result)
+	numero, result = ejercicios.EvaluaNumero("18")
+	fmt.Println(numero)
+	mt.Println(result)
 }
