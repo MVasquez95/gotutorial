@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gotutorial/iteraciones"
+	"github.com/gotutorial/ejercicios"
 )
 
 func main() {
@@ -36,8 +36,11 @@ func main() {
 	fmt.Println(result)
 
 	//Aceptar datos por teclado
-	teclado.IngresoNumero()*/
+	teclado.IngresoNumero()
 
 	//Pruebas de FOR
-	iteraciones.Iterar()
+	iteraciones.Iterar()*/
+
+	//Ejercicio 2
+	ejercicios.TablaMult()
 }
