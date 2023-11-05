@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/gotutorial/ejercicios"
+	"github.com/gotutorial/teclado"
 )
 
 func main() {
@@ -30,12 +28,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	} */
+	}
 
 	numero, result := ejercicios.EvaluaNumero("100")
 	fmt.Println(numero)
-	fmt.Println(result)
-	numero, result = ejercicios.EvaluaNumero("18")
-	fmt.Println(numero)
-	fmt.Println(result)
+	fmt.Println(result)*/
+
+	teclado.IngresoNumero()
 }
