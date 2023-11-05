@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gotutorial/teclado"
+	"github.com/gotutorial/iteraciones"
 )
 
 func main() {
@@ -30,9 +30,14 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 
+	//Ejercicio 1
 	numero, result := ejercicios.EvaluaNumero("100")
 	fmt.Println(numero)
-	fmt.Println(result)*/
+	fmt.Println(result)
 
-	teclado.IngresoNumero()
+	//Aceptar datos por teclado
+	teclado.IngresoNumero()*/
+
+	//Pruebas de FOR
+	iteraciones.Iterar()
 }
