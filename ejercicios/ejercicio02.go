@@ -9,8 +9,9 @@ import (
 
 var num int
 var err error
+var text string
 
-func TablaMult() {
+func TablaMul() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Println("Ingrese un número del 1 al 10: ")
@@ -24,6 +25,7 @@ func TablaMult() {
 		}
 	}
 	for i := 0; i < 13; i++ {
-		fmt.Printf("%d x %d = %d \n", num, i, num*i)
+		text += fmt.Sprintf("%d x %d = %d \n", num, i, num*i)
 	}
+	return text
 }
