@@ -47,6 +47,8 @@ func main() {
 	files.LeeArchivo()
 
 	//Funciones Anonimas
-	funciones.Calculos()*/
-	funciones.LlamarClosure()
+	funciones.Calculos()
+	funciones.LlamarClosure()*/
+
+	funciones.Exponencia(2)
 }
