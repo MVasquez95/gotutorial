@@ -25,12 +25,12 @@ func GrabaTabla() {
 // Concatena la nueva tabla con lo existente
 func JuntaTabla() {
 	text := ejercicios.TablaMul()
-	if !Append(text) {
+	if !append(text) {
 		fmt.Println("Error al concatenar contenido")
 	}
 }
 
-func Append(text string) bool {
+func append(text string) bool {
 	file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
 		fmt.Println("Error durante el Append: " + err.Error())

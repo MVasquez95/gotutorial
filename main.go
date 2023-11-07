@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/gotutorial/files"
-)
+import "github.com/gotutorial/funciones"
 
 func main() {
 	////Convertir un entero a texto, se necesita importar package variables
@@ -45,6 +43,10 @@ func main() {
 	fmt.Println(ejercicios.TablaMul())
 
 	files.GrabaTabla()
-	files.JuntaTabla()*/
+	files.JuntaTabla()
 	files.LeeArchivo()
+
+	//Funciones Anonimas
+	funciones.Calculos()*/
+	funciones.LlamarClosure()
 }
