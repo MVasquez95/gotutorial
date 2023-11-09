@@ -1,6 +1,8 @@
 package main
 
-import "github.com/gotutorial/funciones"
+import (
+	"github.com/gotutorial/arrays"
+)
 
 func main() {
 	////Convertir un entero a texto, se necesita importar package variables
@@ -48,7 +50,11 @@ func main() {
 
 	//Funciones Anonimas
 	funciones.Calculos()
-	funciones.LlamarClosure()*/
+	funciones.LlamarClosure()
 
 	funciones.Exponencia(2)
+
+	arrays.MuestroArreglos()
+	arrays.MuestroSlices()*/
+	arrays.Capacidad()
 }
