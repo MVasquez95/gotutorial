@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gotutorial/arrays"
+	"github.com/gotutorial/maps"
 )
 
 func main() {
@@ -55,6 +55,8 @@ func main() {
 	funciones.Exponencia(2)
 
 	arrays.MuestroArreglos()
-	arrays.MuestroSlices()*/
-	arrays.Capacidad()
+	arrays.MuestroSlices()
+	arrays.Capacidad()*/
+
+	maps.MonstrarMapas()
 }
