@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gotutorial/maps"
+	"github.com/gotutorial/users"
 )
 
 func main() {
@@ -56,7 +56,9 @@ func main() {
 
 	arrays.MuestroArreglos()
 	arrays.MuestroSlices()
-	arrays.Capacidad()*/
+	arrays.Capacidad()
 
-	maps.MonstrarMapas()
+	maps.MonstrarMapas()*/
+
+	users.AltaUsuario()
 }
