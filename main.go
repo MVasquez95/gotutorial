@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/gotutorial/users"
+	e "github.com/gotutorial/ejer_interfaces"
+	"github.com/gotutorial/models"
 )
 
 func main() {
@@ -58,7 +59,13 @@ func main() {
 	arrays.MuestroSlices()
 	arrays.Capacidad()
 
-	maps.MonstrarMapas()*/
+	maps.MonstrarMapas()
 
-	users.AltaUsuario()
+	users.AltaUsuario()*/
+
+	Pablo := new(models.Hombre)
+	e.HumanoRespirando(Pablo)
+
+	Tasha := new(models.Mujer)
+	e.HumanoRespirando(Tasha)
 }
