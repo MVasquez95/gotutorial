@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/gotutorial/ejer_interfaces"
-	"github.com/gotutorial/models"
+	deferpanic "github.com/gotutorial/defer"
 )
 
 func main() {
@@ -61,11 +60,13 @@ func main() {
 
 	maps.MonstrarMapas()
 
-	users.AltaUsuario()*/
+	users.AltaUsuario()
 
 	Pablo := new(models.Hombre)
 	e.HumanoRespirando(Pablo)
 
 	Tasha := new(models.Mujer)
-	e.HumanoRespirando(Tasha)
+	e.HumanoRespirando(Tasha)*/
+
+	deferpanic.EjemploPanic()
 }
