@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/gotutorial/gorutines"
+	"github.com/gotutorial/webserver"
 )
 
 func main() {
@@ -70,7 +68,7 @@ func main() {
 	Tasha := new(models.Mujer)
 	e.HumanoRespirando(Tasha)
 
-	deferpanic.EjemploPanic()*/
+	deferpanic.EjemploPanic()
 
 	canl := make(chan bool)
 	go gorutines.MyNameSlow("Miguel", canl)
@@ -79,5 +77,6 @@ func main() {
 	}()
 	fmt.Println("Estoy aqui")
 	var x string
-	fmt.Scanln(&x)
+	fmt.Scanln(&x)*/
+	webserver.MiWebServer()
 }
