@@ -1,7 +1,9 @@
 package main
 
 import (
-	deferpanic "github.com/gotutorial/defer"
+	"fmt"
+
+	"github.com/gotutorial/gorutines"
 )
 
 func main() {
@@ -66,7 +68,16 @@ func main() {
 	e.HumanoRespirando(Pablo)
 
 	Tasha := new(models.Mujer)
-	e.HumanoRespirando(Tasha)*/
+	e.HumanoRespirando(Tasha)
 
-	deferpanic.EjemploPanic()
+	deferpanic.EjemploPanic()*/
+
+	canl := make(chan bool)
+	go gorutines.MyNameSlow("Miguel", canl)
+	defer func() {
+		<-canl
+	}()
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
